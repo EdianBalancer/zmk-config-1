@@ -196,7 +196,7 @@
         left_finger_02_row_4 {
             timeout-ms = <50>;
             require-prior-idle-ms = <(-1)>;
-            key-positions = <48 50>;
+            key-positions = <48 42>;
             bindings = <&to 0>;
         };
 
@@ -490,17 +490,17 @@
 
         layer_2ly_1 {
             bindings = <&to 1>;
-            key-positions = <48 23>;
+            key-positions = <48 43>;
         };
 
         layer_2ly_2 {
             bindings = <&to 2>;
-            key-positions = <48 11>;
+            key-positions = <48 44>;
         };
 
         layer_2ly_3 {
             bindings = <&to 3>;
-            key-positions = <48 35>;
+            key-positions = <48 45>;
         };
     };
 };
