@@ -101,12 +101,12 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:pan-down$$
   - $$mdi:mouse-right-click-outline$$
-  - {t: '1', type: held alternate}
+  - '1'
   - '2'
   - '3'
   - '-'
   - $$mdi:brightness-7$$
-  - {t: '$$mdi:apple-keyboard-option$$', h: '&lm1 LGUI', type: held alternate}
+  - {t: '$$mdi:apple-keyboard-option$$', h: '&lm1 LGUI'}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-option$$'}
@@ -159,7 +159,7 @@ layers:
   - \
   - '#'
   - _
-  - {t: '[', type: held alternate}
+  - '['
   - ']'
   - '*'
   - PAUSE BREAK
@@ -217,10 +217,10 @@ layers:
   - PAUSE BREAK
   - $$mdi:skip-previous$$
   - $$mdi:play-pause$$
-  - {t: '$$mdi:skip-next$$', type: held}
+  - $$mdi:skip-next$$
   - $$mdi:brightness-7$$
   - ''
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -337,8 +337,8 @@ combos:
   k: CALCULATOR
   l: ['1']
 - p: [48, 43]
-  k: {t: '1', h: '$$mdi:gesture-tap-hold$$'}
+  k: '&opl 1'
 - p: [48, 44]
-  k: {t: '2', h: '$$mdi:gesture-tap-hold$$'}
+  k: '&opl 2'
 - p: [48, 45]
-  k: {t: '3', h: '$$mdi:gesture-tap-hold$$'}
+  k: '&opl 3'
