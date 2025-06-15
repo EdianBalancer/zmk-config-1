@@ -24,7 +24,7 @@ layers:
   - I
   - O
   - P
-  - \
+  - Sft+\
   - $$mdi:apple-keyboard-shift$$
   - A
   - S
