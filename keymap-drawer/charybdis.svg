@@ -1038,10 +1038,6 @@ rect.held, rect.combo.held {
 <text x="429" y="226" class="combo tap layer-activator">0</text>
 </a><text x="429" y="237" class="combo hold">toggle</text>
 </g>
-<g class="combo combopos-2">
-<rect rx="6" ry="6" x="574" y="99" width="28" height="26" class="combo"/>
-<text x="588" y="112" class="combo tap"><tspan style="font-size: 60%">CALCULATOR</tspan></text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 911)" class="layer-2">
