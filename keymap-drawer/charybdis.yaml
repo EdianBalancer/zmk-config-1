@@ -76,7 +76,7 @@ layers:
   - $$mdi:arrow-up-bold$$
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:mouse-scroll-wheel$$
-  - \
+  - '*'
   - '7'
   - '8'
   - '9'
@@ -88,7 +88,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
   - $$mdi:pan-up$$
-  - ''''
+  - /
   - '4'
   - '5'
   - '6'
@@ -237,7 +237,6 @@ combos:
   l: ['1']
 - p: [48, 50]
   k: {t: '0', h: toggle}
-  l: ['0']
 - p: [49, 50]
   k: {t: '$$mdi:apple-keyboard-shift$$', h: '&lm1 LCTRL'}
   l: ['0']
@@ -322,12 +321,6 @@ combos:
 - p: [42, 43]
   k: PAUSE BREAK
   l: ['0']
-- p: [18, 19, 30, 31]
-  k: $$mdi:brightness-5$$
-  l: ['0']
-- p: [30, 31, 42, 43]
-  k: $$mdi:brightness-7$$
-  l: ['0']
 - p: [24, 12]
   k: $$mdi:alpha-w-box$$
   l: ['0']
@@ -340,3 +333,12 @@ combos:
 - p: [0, 1]
   k: '`'
   l: ['0']
+- p: [18, 30]
+  k: CALCULATOR
+  l: ['1']
+- p: [48, 51]
+  k: {t: '1', h: toggle}
+- p: [48, 52]
+  k: {t: '2', h: toggle}
+- p: [48, 55]
+  k: {t: '3', h: toggle}
