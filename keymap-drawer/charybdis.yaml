@@ -235,7 +235,7 @@ combos:
 - p: [28, 40]
   k: $$mdi:mouse-scroll-wheel$$
   l: ['1']
-- p: [48, 50]
+- p: [48, 42]
   k: {t: '0', h: toggle}
 - p: [49, 50]
   k: {t: '$$mdi:apple-keyboard-shift$$', h: '&lm1 LCTRL'}
@@ -336,9 +336,9 @@ combos:
 - p: [18, 30]
   k: CALCULATOR
   l: ['1']
-- p: [48, 23]
+- p: [48, 43]
   k: {t: '1', h: toggle}
-- p: [48, 11]
+- p: [48, 44]
   k: {t: '2', h: toggle}
-- p: [48, 35]
+- p: [48, 45]
   k: {t: '3', h: toggle}
