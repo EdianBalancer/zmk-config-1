@@ -37,25 +37,25 @@ layers:
   - L
   - ;
   - ''''
-  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - Z
   - X
   - C
-  - D
   - V
+  - B
   - N
   - M
   - ','
   - .
   - /
-  - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:microsoft-windows$$', h: '2'}
-  - {t: '$$mdi:keyboard-space$$', h: '1'}
+  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:apple-keyboard-option$$', h: '2'}
+  - {t: '$$mdi:microsoft-windows$$', h: '1'}
   - '1'
   - '2'
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-space$$
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:backspace-reverse-outline$$
   '1':
   - F12
