@@ -43,13 +43,13 @@ layers:
   - C
   - V
   - B
-  - {t: N, type: held}
+  - N
   - M
   - ','
   - .
   - /
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
-  - {t: '$$mdi:apple-keyboard-option$$', h: '2', type: held}
+  - {t: '$$mdi:apple-keyboard-option$$', h: '2'}
   - $$mdi:microsoft-windows$$
   - '1'
   - '2'
@@ -236,7 +236,7 @@ combos:
   k: $$mdi:mouse-scroll-wheel$$
   l: ['1']
 - p: [48, 42]
-  k: {t: '0', h: '$$mdi:gesture-tap-hold$$'}
+  k: {t: '0', h: toggle}
 - p: [49, 50]
   k: {t: '$$mdi:apple-keyboard-shift$$', h: '&lm1 LCTRL'}
   l: ['0']
@@ -336,9 +336,3 @@ combos:
 - p: [18, 30]
   k: CALCULATOR
   l: ['1']
-- p: [48, 43]
-  k: '&opl 1'
-- p: [48, 44]
-  k: '&opl 2'
-- p: [48, 45]
-  k: '&opl 3'
