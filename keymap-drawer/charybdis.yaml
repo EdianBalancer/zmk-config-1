@@ -48,7 +48,7 @@ layers:
   - ','
   - .
   - /
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:apple-keyboard-option$$', h: '2'}
   - {t: '$$mdi:microsoft-windows$$', h: '1'}
   - '1'
@@ -58,7 +58,6 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:backspace-reverse-outline$$
   '1':
-  - F12
   - F1
   - F2
   - F3
@@ -70,6 +69,7 @@ layers:
   - F9
   - F10
   - F11
+  - F12
   - $$mdi:volume-high$$
   - {t: PGUP, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:backspace$$', type: backspace}
@@ -228,69 +228,15 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  '4':
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - BT SEL 0
-  - BT SEL 1
-  - BT SEL 2
-  - BT SEL 3
-  - BT SEL 4
-  - BL DEC
-  - RGB HUI
-  - RGB SAI
-  - RGB BRI
-  - RGB SPI
-  - ''
-  - ''
-  - BT CLR
-  - BT PRV
-  - OUT TOG
-  - BT NXT
-  - BT CLRALL
-  - BL TOG
-  - RGB EFR
-  - RGB TOG
-  - RGB EFF
-  - studio unlock
-  - ''
-  - ''
-  - BT DISC 0
-  - BT DISC 1
-  - BT DISC 2
-  - BT DISC 3
-  - BT DISC 4
-  - BL INC
-  - RGB HUD
-  - RGB SAD
-  - RGB BRD
-  - RGB SPD
-  - ''
-  - {type: held}
-  - boot loader
-  - {type: held}
-  - ''
-  - boot loader
-  - ''
-  - ''
-  - ''
+  '4': ['', '', '', '', '', '', '', '', '', '', '', '', '', BT SEL 0, BT SEL 1, BT SEL 2, BT SEL 3, BT SEL 4, BL DEC, RGB HUI, RGB SAI, RGB BRI, RGB SPI, '', '',
+    BT CLR, BT PRV, OUT TOG, BT NXT, BT CLRALL, BL TOG, RGB EFR, RGB TOG, RGB EFF, studio unlock, '', '', BT DISC 0, BT DISC 1, BT DISC 2, BT DISC 3, BT DISC 4, BL
+      INC, RGB HUD, RGB SAD, RGB BRD, RGB SPD, '', '', boot loader, '', '', boot loader, '', '', '']
 combos:
 - p: [28, 40]
   k: $$mdi:mouse-scroll-wheel$$
   l: ['1']
 - p: [48, 50]
-  k: '4'
+  k: {t: '0', h: toggle}
   l: ['0']
 - p: [49, 50]
   k: {t: '$$mdi:apple-keyboard-shift$$', h: '&lm1 LCTRL'}
@@ -382,3 +328,11 @@ combos:
 - p: [30, 31, 42, 43]
   k: $$mdi:brightness-7$$
   l: ['0']
+- p: [12, 24]
+  k: $$mdi:alpha-w-box$$
+- p: [10, 22]
+  k: '['
+- p: [11, 23]
+  k: ']'
+- p: [0, 1]
+  k: '`'
