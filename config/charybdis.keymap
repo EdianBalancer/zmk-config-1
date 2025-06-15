@@ -490,17 +490,17 @@
 
         layer_2ly_1 {
             bindings = <&to 1>;
-            key-positions = <48 51>;
+            key-positions = <48 23>;
         };
 
         layer_2ly_2 {
             bindings = <&to 2>;
-            key-positions = <48 52>;
+            key-positions = <48 11>;
         };
 
         layer_2ly_3 {
             bindings = <&to 3>;
-            key-positions = <48 55>;
+            key-positions = <48 35>;
         };
     };
 };
