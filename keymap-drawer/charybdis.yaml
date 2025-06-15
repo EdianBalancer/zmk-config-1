@@ -43,13 +43,13 @@ layers:
   - C
   - V
   - B
-  - N
+  - {t: N, type: held}
   - M
   - ','
   - .
   - /
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
-  - {t: '$$mdi:apple-keyboard-option$$', h: '2'}
+  - {t: '$$mdi:apple-keyboard-option$$', h: '2', type: held}
   - $$mdi:microsoft-windows$$
   - '1'
   - '2'
@@ -101,12 +101,12 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:pan-down$$
   - $$mdi:mouse-right-click-outline$$
-  - '1'
+  - {t: '1', type: held alternate}
   - '2'
   - '3'
   - '-'
   - $$mdi:brightness-7$$
-  - {t: '$$mdi:apple-keyboard-option$$', h: '&lm1 LGUI'}
+  - {t: '$$mdi:apple-keyboard-option$$', h: '&lm1 LGUI', type: held alternate}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-option$$'}
@@ -159,7 +159,7 @@ layers:
   - \
   - '#'
   - _
-  - '['
+  - {t: '[', type: held alternate}
   - ']'
   - '*'
   - PAUSE BREAK
@@ -217,10 +217,10 @@ layers:
   - PAUSE BREAK
   - $$mdi:skip-previous$$
   - $$mdi:play-pause$$
-  - $$mdi:skip-next$$
+  - {t: '$$mdi:skip-next$$', type: held}
   - $$mdi:brightness-7$$
   - ''
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -236,7 +236,7 @@ combos:
   k: $$mdi:mouse-scroll-wheel$$
   l: ['1']
 - p: [48, 42]
-  k: {t: '0', h: toggle}
+  k: {t: '0', h: '$$mdi:gesture-tap-hold$$'}
 - p: [49, 50]
   k: {t: '$$mdi:apple-keyboard-shift$$', h: '&lm1 LCTRL'}
   l: ['0']
@@ -337,8 +337,8 @@ combos:
   k: CALCULATOR
   l: ['1']
 - p: [48, 43]
-  k: {t: '1', h: toggle}
+  k: {t: '1', h: '$$mdi:gesture-tap-hold$$'}
 - p: [48, 44]
-  k: {t: '2', h: toggle}
+  k: {t: '2', h: '$$mdi:gesture-tap-hold$$'}
 - p: [48, 45]
-  k: {t: '3', h: toggle}
+  k: {t: '3', h: '$$mdi:gesture-tap-hold$$'}
