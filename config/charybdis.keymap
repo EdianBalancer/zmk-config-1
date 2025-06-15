@@ -175,7 +175,7 @@
             timeout-ms = <50>;
             require-prior-idle-ms = <(-1)>;
             key-positions = <48 42>;
-            bindings = <&sl 0>;
+            bindings = <&to 0>;
         };
 
         left_finger_01_row_4 {
@@ -467,17 +467,29 @@
         };
 
         layer_2ly_1 {
+<<<<<<< HEAD
             bindings = <&opl 1>;
+=======
+            bindings = <&to 1>;
+>>>>>>> parent of 426d65d (Updated charybdis.keymap)
             key-positions = <48 43>;
         };
 
         layer_2ly_2 {
+<<<<<<< HEAD
             bindings = <&opl 2>;
+=======
+            bindings = <&to 2>;
+>>>>>>> parent of 426d65d (Updated charybdis.keymap)
             key-positions = <48 44>;
         };
 
         layer_2ly_3 {
+<<<<<<< HEAD
             bindings = <&opl 3>;
+=======
+            bindings = <&to 3>;
+>>>>>>> parent of 426d65d (Updated charybdis.keymap)
             key-positions = <48 45>;
         };
     };
