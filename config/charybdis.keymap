@@ -481,26 +481,5 @@
             key-positions = <0 1>;
             layers = <0>;
         };
-
-        com_app_calc_ly1 {
-            bindings = <&kp K_CALCULATOR>;
-            key-positions = <18 30>;
-            layers = <1>;
-        };
-
-        layer_2ly_1 {
-            bindings = <&sl 1>;
-            key-positions = <48 43>;
-        };
-
-        layer_2ly_2 {
-            bindings = <&sl 2>;
-            key-positions = <48 44>;
-        };
-
-        layer_2ly_3 {
-            bindings = <&sl 3>;
-            key-positions = <48 45>;
-        };
     };
 };
