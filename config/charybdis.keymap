@@ -98,6 +98,12 @@
             tapping-term-ms = <200>;
             bindings = <&lm1>, <&sk>;
         };
+
+        opl: to_ly {
+            compatible = "zmk,behavior-toggle-layer";
+            label = "OPEN LAYER";
+            #binding-cells = <1>;
+        };
     };
 
     keymap {
@@ -197,7 +203,7 @@
             timeout-ms = <50>;
             require-prior-idle-ms = <(-1)>;
             key-positions = <48 42>;
-            bindings = <&sl 0>;
+            bindings = <&to 0>;
         };
 
         left_finger_01_row_4 {

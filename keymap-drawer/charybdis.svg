@@ -1036,7 +1036,7 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="415" y="213" width="28" height="26" class="combo"/>
 <a href="#x_x">
 <text x="429" y="226" class="combo tap layer-activator">0</text>
-</a><use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="421" y="222" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
+</a><text x="429" y="237" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -1355,7 +1355,7 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="415" y="213" width="28" height="26" class="combo"/>
 <a href="#x_x">
 <text x="429" y="226" class="combo tap layer-activator">0</text>
-</a><use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="421" y="222" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
+</a><text x="429" y="237" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -1633,7 +1633,7 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="415" y="213" width="28" height="26" class="combo"/>
 <a href="#x_x">
 <text x="429" y="226" class="combo tap layer-activator">0</text>
-</a><use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="421" y="222" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
+</a><text x="429" y="237" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -1966,7 +1966,7 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="415" y="213" width="28" height="26" class="combo"/>
 <a href="#x_x">
 <text x="429" y="226" class="combo tap layer-activator">0</text>
-</a><use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="421" y="222" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
+</a><text x="429" y="237" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
