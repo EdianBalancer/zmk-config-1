@@ -459,13 +459,18 @@
         };
 
         com_key_scroll {
-            bindings = <&kp SCROLLLOCK>;
+            bindings = <&mkp MB3>;
             key-positions = <20 32>;
         };
 
         com_key_end {
             bindings = <&kp END>;
             key-positions = <22 34>;
+        };
+
+        com_key_pagedown {
+            bindings = <&kp PAGE_DOWN>;
+            key-positions = <21 33>;
         };
     };
 };
