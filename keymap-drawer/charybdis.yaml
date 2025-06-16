@@ -24,7 +24,7 @@ layers:
   - I
   - O
   - P
-  - \
+  - Sft+\
   - $$mdi:apple-keyboard-shift$$
   - A
   - S
@@ -48,15 +48,15 @@ layers:
   - ','
   - .
   - /
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
+  - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:apple-keyboard-option$$', h: '2', type: held}
   - $$mdi:microsoft-windows$$
   - '1'
-  - '2'
+  - {t: 'Sft+$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-control$$
-  - $$mdi:backspace-reverse-outline$$
+  - '2'
   '1':
   - F1
   - F2
@@ -166,11 +166,11 @@ layers:
   - {type: held}
   - {t: '$$mdi:apple-keyboard-option$$', h: '&lm1 LGUI'}
   - {t: ▽, type: trans}
-  - {type: held alternate}
+  - {t: ▽, type: trans}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held alternate}
   '3':
   - ''
   - ''
