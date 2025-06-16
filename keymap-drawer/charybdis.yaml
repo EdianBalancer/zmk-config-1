@@ -43,13 +43,13 @@ layers:
   - C
   - V
   - B
-  - {t: N, type: held}
+  - N
   - M
   - ','
   - .
   - /
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:apple-keyboard-option$$', h: '2', type: held}
+  - {t: '$$mdi:apple-keyboard-option$$', h: '2'}
   - $$mdi:microsoft-windows$$
   - '1'
   - {t: 'Sft+$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
@@ -236,7 +236,7 @@ combos:
   k: $$mdi:mouse-scroll-wheel$$
   l: ['1']
 - p: [48, 42]
-  k: {t: '0', h: '$$mdi:gesture-tap-hold$$'}
+  k: {t: '0', h: toggle}
 - p: [49, 50]
   k: {t: '$$mdi:apple-keyboard-shift$$', h: '&lm1 LCTRL'}
   l: ['0']
