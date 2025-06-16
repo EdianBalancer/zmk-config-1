@@ -323,6 +323,8 @@ combos:
 - p: [19, 31]
   k: PGUP
 - p: [20, 32]
-  k: SCROLLLOCK
+  k: '&mkp MB3'
 - p: [22, 34]
   k: END
+- p: [21, 33]
+  k: PGDN
