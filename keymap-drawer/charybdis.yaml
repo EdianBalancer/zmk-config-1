@@ -80,8 +80,8 @@ layers:
   - '7'
   - '8'
   - '9'
-  - '='
-  - $$mdi:brightness-5$$
+  - '0'
+  - INS
   - $$mdi:volume-off$$
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-option$$'}
   - $$mdi:arrow-left-bold$$
@@ -92,20 +92,20 @@ layers:
   - '4'
   - '5'
   - '6'
-  - '0'
-  - INS
+  - +
+  - PRINTSCREEN
   - $$mdi:volume-low$$
   - {t: PGDN, h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:pan-down$$
-  - $$mdi:mouse-right-click-outline$$
+  - '='
   - '1'
   - '2'
   - '3'
   - '-'
-  - $$mdi:brightness-7$$
+  - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:apple-keyboard-option$$', h: '&lm1 LGUI'}
   - {t: ▽, type: trans}
   - {type: held}
