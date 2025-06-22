@@ -115,7 +115,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '2':
-  - BT CLR
+  - BT CLRALL
   - BT SEL 0
   - BT SEL 1
   - BT SEL 2
