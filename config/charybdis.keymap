@@ -191,14 +191,6 @@
     combos {
         compatible = "zmk,combos";
 
-        left_finger_1_row_23_layer_1 {
-            timeout-ms = <50>;
-            require-prior-idle-ms = <(-1)>;
-            layers = <1>;
-            key-positions = <28 40>;
-            bindings = <&mkp MCLK>;
-        };
-
         left_finger_02_row_4 {
             timeout-ms = <50>;
             require-prior-idle-ms = <(-1)>;
@@ -206,27 +198,12 @@
             bindings = <&to 0>;
         };
 
-        left_finger_01_row_4 {
-            timeout-ms = <50>;
-            require-prior-idle-ms = <(-1)>;
-            layers = <0>;
-            key-positions = <49 50>;
-            bindings = <&m1t LCTRL LSHFT >;
-        };
-
         // both_finger_11_row_4 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <49 52>; bindings = <&lt 2 LSHFT>; }; // AB
         // both_finger_10_row_4 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <49 51>; bindings = <&lt 3 LALT>; };  // A
         // both_finger_11_row_4 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <49 52>; bindings = <&lt 3 LSHFT>; }; // C
         // rght_finger_01_row_4 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <51 52>; bindings = <&kp LS(LALT)>; }; // E
         // left_finger_12_row_4 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <48 49>; bindings = <&ls 3 LALT>; }; // F
-
-        left_finger_12_row_4 {
-            timeout-ms = <50>;
-            require-prior-idle-ms = <(-1)>;
-            layers = <0>;
-            key-positions = <48 49>;
-            bindings = <&m1s LGUI LALT>;
-        }; // G
+        // G
         // BDG
 
         left_finger_4_row_12 {
@@ -378,14 +355,6 @@
             layers = <0>;
             key-positions = <33 45>;
             bindings = <&kp C_NEXT>;
-        };
-
-        rght_finger_4_row_23 {
-            timeout-ms = <50>;
-            require-prior-idle-ms = <(-1)>;
-            layers = <0>;
-            key-positions = <34 46>;
-            bindings = <&kp CAPS>;
         };
 
         rght_finger_01_row_1 {
