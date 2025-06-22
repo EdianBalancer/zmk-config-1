@@ -441,10 +441,5 @@
             bindings = <&kp PAGE_DOWN>;
             key-positions = <21 33>;
         };
-
-        keyboard_reset {
-            bindings = <&sys_reset>;
-            key-positions = <36 37 46 47>;
-        };
     };
 };
