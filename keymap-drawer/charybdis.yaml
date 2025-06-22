@@ -232,17 +232,8 @@ layers:
     BT CLR, BT PRV, OUT TOG, BT NXT, BT CLRALL, BL TOG, RGB EFR, RGB TOG, RGB EFF, studio unlock, '', '', BT DISC 0, BT DISC 1, BT DISC 2, BT DISC 3, BT DISC 4, BL
       INC, RGB HUD, RGB SAD, RGB BRD, RGB SPD, '', '', boot loader, '', '', boot loader, '', '', '']
 combos:
-- p: [28, 40]
-  k: $$mdi:mouse-scroll-wheel$$
-  l: ['1']
 - p: [48, 42]
   k: {t: '0', h: toggle}
-- p: [49, 50]
-  k: {t: '$$mdi:apple-keyboard-shift$$', h: '&lm1 LCTRL'}
-  l: ['0']
-- p: [48, 49]
-  k: {t: '$$mdi:apple-keyboard-option$$', h: '&lm1 LGUI'}
-  l: ['0']
 - p: [13, 25]
   k: F9
   l: ['0']
@@ -293,9 +284,6 @@ combos:
   l: ['0']
 - p: [33, 45]
   k: $$mdi:skip-next$$
-  l: ['0']
-- p: [34, 46]
-  k: $$mdi:apple-keyboard-caps$$
   l: ['0']
 - p: [18, 19]
   k: $$mdi:printer-outline$$
