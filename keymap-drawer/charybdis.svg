@@ -719,16 +719,6 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="742" y="99" width="28" height="26" class="combo"/>
 <text x="756" y="112" class="combo tap">PGDN</text>
 </g>
-<g class="combo bootloader combopos-30">
-<path d="M448,196 l-401,0" class="combo"/>
-<path d="M448,196 l-345,0" class="combo"/>
-<path d="M448,196 l345,0" class="combo"/>
-<path d="M448,196 l401,0" class="combo"/>
-<rect rx="6" ry="6" x="434" y="183" width="28" height="26" class="combo bootloader"/>
-<text x="448" y="196" class="combo bootloader tap">
-<tspan x="448" dy="-0.6em">sys</tspan><tspan x="448" dy="1.2em">reset</tspan>
-</text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 456)" class="layer-1">
@@ -1053,16 +1043,6 @@ rect.held, rect.combo.held {
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="742" y="99" width="28" height="26" class="combo"/>
 <text x="756" y="112" class="combo tap">PGDN</text>
-</g>
-<g class="combo bootloader combopos-6">
-<path d="M448,196 l-401,0" class="combo"/>
-<path d="M448,196 l-345,0" class="combo"/>
-<path d="M448,196 l345,0" class="combo"/>
-<path d="M448,196 l401,0" class="combo"/>
-<rect rx="6" ry="6" x="434" y="183" width="28" height="26" class="combo bootloader"/>
-<text x="448" y="196" class="combo bootloader tap">
-<tspan x="448" dy="-0.6em">sys</tspan><tspan x="448" dy="1.2em">reset</tspan>
-</text>
 </g>
 </g>
 </g>
@@ -1405,16 +1385,6 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="742" y="99" width="28" height="26" class="combo"/>
 <text x="756" y="112" class="combo tap">PGDN</text>
 </g>
-<g class="combo bootloader combopos-6">
-<path d="M448,196 l-401,0" class="combo"/>
-<path d="M448,196 l-345,0" class="combo"/>
-<path d="M448,196 l345,0" class="combo"/>
-<path d="M448,196 l401,0" class="combo"/>
-<rect rx="6" ry="6" x="434" y="183" width="28" height="26" class="combo bootloader"/>
-<text x="448" y="196" class="combo bootloader tap">
-<tspan x="448" dy="-0.6em">sys</tspan><tspan x="448" dy="1.2em">reset</tspan>
-</text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 1367)" class="layer-3">
@@ -1714,16 +1684,6 @@ rect.held, rect.combo.held {
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="742" y="99" width="28" height="26" class="combo"/>
 <text x="756" y="112" class="combo tap">PGDN</text>
-</g>
-<g class="combo bootloader combopos-6">
-<path d="M448,196 l-401,0" class="combo"/>
-<path d="M448,196 l-345,0" class="combo"/>
-<path d="M448,196 l345,0" class="combo"/>
-<path d="M448,196 l401,0" class="combo"/>
-<rect rx="6" ry="6" x="434" y="183" width="28" height="26" class="combo bootloader"/>
-<text x="448" y="196" class="combo bootloader tap">
-<tspan x="448" dy="-0.6em">sys</tspan><tspan x="448" dy="1.2em">reset</tspan>
-</text>
 </g>
 </g>
 </g>
@@ -2079,16 +2039,6 @@ rect.held, rect.combo.held {
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="742" y="99" width="28" height="26" class="combo"/>
 <text x="756" y="112" class="combo tap">PGDN</text>
-</g>
-<g class="combo bootloader combopos-6">
-<path d="M448,196 l-401,0" class="combo"/>
-<path d="M448,196 l-345,0" class="combo"/>
-<path d="M448,196 l345,0" class="combo"/>
-<path d="M448,196 l401,0" class="combo"/>
-<rect rx="6" ry="6" x="434" y="183" width="28" height="26" class="combo bootloader"/>
-<text x="448" y="196" class="combo bootloader tap">
-<tspan x="448" dy="-0.6em">sys</tspan><tspan x="448" dy="1.2em">reset</tspan>
-</text>
 </g>
 </g>
 </g>

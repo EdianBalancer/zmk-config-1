@@ -316,5 +316,3 @@ combos:
   k: END
 - p: [21, 33]
   k: PGDN
-- p: [36, 37, 46, 47]
-  k: {t: sys reset, type: bootloader}
