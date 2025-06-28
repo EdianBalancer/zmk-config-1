@@ -255,12 +255,6 @@ combos:
 - p: [26, 38]
   k: F3
   l: ['0']
-- p: [27, 39]
-  k: F2
-  l: ['0']
-- p: [28, 40]
-  k: F1
-  l: ['0']
 - p: [29, 41]
   k: F8
   l: ['0']
@@ -316,3 +310,7 @@ combos:
   k: END
 - p: [21, 33]
   k: PGDN
+- p: [27, 39]
+  k: $$mdi:mouse-left-click-outline$$
+- p: [28, 40]
+  k: $$mdi:mouse-right-click-outline$$
