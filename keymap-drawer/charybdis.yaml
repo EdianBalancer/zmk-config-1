@@ -71,7 +71,7 @@ layers:
   - F11
   - F12
   - $$mdi:volume-high$$
-  - {t: PGUP, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: PGUP, h: 'CTL+$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:arrow-up-bold$$
   - $$mdi:backspace-reverse-outline$$
@@ -128,7 +128,7 @@ layers:
   - BT DISC 0
   - boot loader
   - $$mdi:skip-previous$$
-  - $$mdi:apple-keyboard-control$$
+  - CTL+$$mdi:apple-keyboard-control$$
   - +
   - ':'
   - '`'
@@ -167,7 +167,7 @@ layers:
   - {t: '$$mdi:apple-keyboard-option$$', h: '&lm1 LGUI'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:keyboard-space$$', h: 'CTL+$$mdi:apple-keyboard-control$$'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held alternate}
@@ -185,7 +185,7 @@ layers:
   - ''
   - ''
   - ''
-  - $$mdi:apple-keyboard-control$$
+  - CTL+$$mdi:apple-keyboard-control$$
   - F9
   - F8
   - F7
