@@ -407,7 +407,7 @@ parse_config:
       # shifted: ")"
 
     # Modifiers
-    LCTRL: $$mdi:apple-keyboard-control$$
+    LCTRL: "CTL+$$mdi:apple-keyboard-control$$"
     LEFT_CONTROL: $$mdi:apple-keyboard-control$$
     LALT: $$mdi:apple-keyboard-option$$
     LEFT_ALT: $$mdi:apple-keyboard-option$$
