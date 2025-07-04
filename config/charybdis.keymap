@@ -132,7 +132,7 @@
 &kp F1        &kp F2           &kp F3     &kp F4          &kp F5     &kp F6            &kp F7        &kp F8           &kp F9  &kp F10  &kp F11    &kp F12
 &kp C_VOL_UP  &mt LCTRL PG_UP  &kp BSPC   &kp UP          &kp DEL    &mkp MCLK         &kp ASTERISK  &kp N7           &kp N8  &kp N9   &kp N0     &kp INSERT
 &kp C_MUTE    &mt LALT ESC     &kp LEFT   &kp ENTER       &kp RIGHT  &msc SCRL_UP      &kp SLASH     &kp N4           &kp N5  &kp N6   &kp PLUS   &kp PRINTSCREEN
-&kp C_VOL_DN  &mt LSHFT PG_DN  &mkp RCLK  &kp DOWN        &mkp LCLK  &msc SCRL_DOWN    &kp EQUAL     &kp N1           &kp N2  &kp N3   &kp MINUS  &mkp RCLK
+&kp C_VOL_DN  &mt LSHFT PG_DN  &mkp RCLK  &kp DOWN        &mkp LCLK  &msc SCRL_DOWN    &kp BSLH      &kp N1           &kp N2  &kp N3   &kp MINUS  &kp EQUAL
                                           &m1s LGUI LALT  &trans     &trans            &mc LALT 0    &mt LSHFT SPACE
                                                           &trans     &trans            &trans
             >;
