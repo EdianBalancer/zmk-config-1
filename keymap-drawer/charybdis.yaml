@@ -100,12 +100,12 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:pan-down$$
-  - '='
+  - \
   - '1'
   - '2'
   - '3'
   - '-'
-  - $$mdi:mouse-right-click-outline$$
+  - '='
   - {t: '$$mdi:apple-keyboard-option$$', h: '&lm1 LGUI'}
   - {t: ▽, type: trans}
   - {type: held}
