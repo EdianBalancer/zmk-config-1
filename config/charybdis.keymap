@@ -404,36 +404,43 @@
         com_key_home {
             bindings = <&kp HOME>;
             key-positions = <18 30>;
+            layers = <0>;
         };
 
         com_key_pageup {
             bindings = <&kp PAGE_UP>;
             key-positions = <19 31>;
+            layers = <0>;
         };
 
         com_key_scroll {
             bindings = <&mkp MB3>;
             key-positions = <20 32>;
+            layers = <0>;
         };
 
         com_key_end {
             bindings = <&kp END>;
             key-positions = <22 34>;
+            layers = <0>;
         };
 
         com_key_pagedown {
             bindings = <&kp PAGE_DOWN>;
             key-positions = <21 33>;
+            layers = <0>;
         };
 
         mouse_l_click {
             bindings = <&mkp LCLK>;
             key-positions = <27 39>;
+            layers = <0>;
         };
 
         mouse_r_click {
             bindings = <&mkp RCLK>;
             key-positions = <28 40>;
+            layers = <0>;
         };
     };
 };
