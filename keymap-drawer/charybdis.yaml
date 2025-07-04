@@ -302,15 +302,22 @@ combos:
   l: ['0']
 - p: [18, 30]
   k: HOME
+  l: ['0']
 - p: [19, 31]
   k: PGUP
+  l: ['0']
 - p: [20, 32]
   k: '&mkp MB3'
+  l: ['0']
 - p: [22, 34]
   k: END
+  l: ['0']
 - p: [21, 33]
   k: PGDN
+  l: ['0']
 - p: [27, 39]
   k: $$mdi:mouse-left-click-outline$$
+  l: ['0']
 - p: [28, 40]
   k: $$mdi:mouse-right-click-outline$$
+  l: ['0']

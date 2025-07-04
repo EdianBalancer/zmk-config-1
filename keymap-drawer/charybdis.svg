@@ -1022,36 +1022,6 @@ rect.held, rect.combo.held {
 <text x="434" y="246" class="combo tap layer-activator">0</text>
 </a><text x="434" y="257" class="combo hold">toggle</text>
 </g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="574" y="110" width="28" height="26" class="combo"/>
-<text x="588" y="123" class="combo tap">HOME</text>
-</g>
-<g class="combo combopos-2">
-<rect rx="6" ry="6" x="630" y="110" width="28" height="26" class="combo"/>
-<text x="644" y="123" class="combo tap">PGUP</text>
-</g>
-<g class="combo combopos-3">
-<rect rx="6" ry="6" x="686" y="99" width="28" height="26" class="combo"/>
-<text x="700" y="112" class="combo tap">
-<tspan x="700" dy="-0.6em">&amp;mkp</tspan><tspan x="700" dy="1.2em">MB3</tspan>
-</text>
-</g>
-<g class="combo combopos-4">
-<rect rx="6" ry="6" x="798" y="138" width="28" height="26" class="combo"/>
-<text x="812" y="151" class="combo tap">END</text>
-</g>
-<g class="combo combopos-5">
-<rect rx="6" ry="6" x="742" y="105" width="28" height="26" class="combo"/>
-<text x="756" y="118" class="combo tap">PGDN</text>
-</g>
-<g class="combo combopos-6">
-<rect rx="6" ry="6" x="182" y="155" width="28" height="26" class="combo"/>
-<use href="#mdi:mouse-left-click-outline" xlink:href="#mdi:mouse-left-click-outline" x="187" y="159" height="18" width="18.0" class="combo tap glyph mdi:mouse-left-click-outline"/>
-</g>
-<g class="combo combopos-7">
-<rect rx="6" ry="6" x="238" y="166" width="28" height="26" class="combo"/>
-<use href="#mdi:mouse-right-click-outline" xlink:href="#mdi:mouse-right-click-outline" x="243" y="170" height="18" width="18.0" class="combo tap glyph mdi:mouse-right-click-outline"/>
-</g>
 </g>
 </g>
 <g transform="translate(40, 975)" class="layer-2">
@@ -1371,36 +1341,6 @@ rect.held, rect.combo.held {
 <text x="434" y="246" class="combo tap layer-activator">0</text>
 </a><text x="434" y="257" class="combo hold">toggle</text>
 </g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="574" y="110" width="28" height="26" class="combo"/>
-<text x="588" y="123" class="combo tap">HOME</text>
-</g>
-<g class="combo combopos-2">
-<rect rx="6" ry="6" x="630" y="110" width="28" height="26" class="combo"/>
-<text x="644" y="123" class="combo tap">PGUP</text>
-</g>
-<g class="combo combopos-3">
-<rect rx="6" ry="6" x="686" y="99" width="28" height="26" class="combo"/>
-<text x="700" y="112" class="combo tap">
-<tspan x="700" dy="-0.6em">&amp;mkp</tspan><tspan x="700" dy="1.2em">MB3</tspan>
-</text>
-</g>
-<g class="combo combopos-4">
-<rect rx="6" ry="6" x="798" y="138" width="28" height="26" class="combo"/>
-<text x="812" y="151" class="combo tap">END</text>
-</g>
-<g class="combo combopos-5">
-<rect rx="6" ry="6" x="742" y="105" width="28" height="26" class="combo"/>
-<text x="756" y="118" class="combo tap">PGDN</text>
-</g>
-<g class="combo combopos-6">
-<rect rx="6" ry="6" x="182" y="155" width="28" height="26" class="combo"/>
-<use href="#mdi:mouse-left-click-outline" xlink:href="#mdi:mouse-left-click-outline" x="187" y="159" height="18" width="18.0" class="combo tap glyph mdi:mouse-left-click-outline"/>
-</g>
-<g class="combo combopos-7">
-<rect rx="6" ry="6" x="238" y="166" width="28" height="26" class="combo"/>
-<use href="#mdi:mouse-right-click-outline" xlink:href="#mdi:mouse-right-click-outline" x="243" y="170" height="18" width="18.0" class="combo tap glyph mdi:mouse-right-click-outline"/>
-</g>
 </g>
 </g>
 <g transform="translate(40, 1463)" class="layer-3">
@@ -1678,36 +1618,6 @@ rect.held, rect.combo.held {
 <a href="#x_x">
 <text x="434" y="246" class="combo tap layer-activator">0</text>
 </a><text x="434" y="257" class="combo hold">toggle</text>
-</g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="574" y="110" width="28" height="26" class="combo"/>
-<text x="588" y="123" class="combo tap">HOME</text>
-</g>
-<g class="combo combopos-2">
-<rect rx="6" ry="6" x="630" y="110" width="28" height="26" class="combo"/>
-<text x="644" y="123" class="combo tap">PGUP</text>
-</g>
-<g class="combo combopos-3">
-<rect rx="6" ry="6" x="686" y="99" width="28" height="26" class="combo"/>
-<text x="700" y="112" class="combo tap">
-<tspan x="700" dy="-0.6em">&amp;mkp</tspan><tspan x="700" dy="1.2em">MB3</tspan>
-</text>
-</g>
-<g class="combo combopos-4">
-<rect rx="6" ry="6" x="798" y="138" width="28" height="26" class="combo"/>
-<text x="812" y="151" class="combo tap">END</text>
-</g>
-<g class="combo combopos-5">
-<rect rx="6" ry="6" x="742" y="105" width="28" height="26" class="combo"/>
-<text x="756" y="118" class="combo tap">PGDN</text>
-</g>
-<g class="combo combopos-6">
-<rect rx="6" ry="6" x="182" y="155" width="28" height="26" class="combo"/>
-<use href="#mdi:mouse-left-click-outline" xlink:href="#mdi:mouse-left-click-outline" x="187" y="159" height="18" width="18.0" class="combo tap glyph mdi:mouse-left-click-outline"/>
-</g>
-<g class="combo combopos-7">
-<rect rx="6" ry="6" x="238" y="166" width="28" height="26" class="combo"/>
-<use href="#mdi:mouse-right-click-outline" xlink:href="#mdi:mouse-right-click-outline" x="243" y="170" height="18" width="18.0" class="combo tap glyph mdi:mouse-right-click-outline"/>
 </g>
 </g>
 </g>
@@ -2041,36 +1951,6 @@ rect.held, rect.combo.held {
 <a href="#x_x">
 <text x="434" y="246" class="combo tap layer-activator">0</text>
 </a><text x="434" y="257" class="combo hold">toggle</text>
-</g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="574" y="110" width="28" height="26" class="combo"/>
-<text x="588" y="123" class="combo tap">HOME</text>
-</g>
-<g class="combo combopos-2">
-<rect rx="6" ry="6" x="630" y="110" width="28" height="26" class="combo"/>
-<text x="644" y="123" class="combo tap">PGUP</text>
-</g>
-<g class="combo combopos-3">
-<rect rx="6" ry="6" x="686" y="99" width="28" height="26" class="combo"/>
-<text x="700" y="112" class="combo tap">
-<tspan x="700" dy="-0.6em">&amp;mkp</tspan><tspan x="700" dy="1.2em">MB3</tspan>
-</text>
-</g>
-<g class="combo combopos-4">
-<rect rx="6" ry="6" x="798" y="138" width="28" height="26" class="combo"/>
-<text x="812" y="151" class="combo tap">END</text>
-</g>
-<g class="combo combopos-5">
-<rect rx="6" ry="6" x="742" y="105" width="28" height="26" class="combo"/>
-<text x="756" y="118" class="combo tap">PGDN</text>
-</g>
-<g class="combo combopos-6">
-<rect rx="6" ry="6" x="182" y="155" width="28" height="26" class="combo"/>
-<use href="#mdi:mouse-left-click-outline" xlink:href="#mdi:mouse-left-click-outline" x="187" y="159" height="18" width="18.0" class="combo tap glyph mdi:mouse-left-click-outline"/>
-</g>
-<g class="combo combopos-7">
-<rect rx="6" ry="6" x="238" y="166" width="28" height="26" class="combo"/>
-<use href="#mdi:mouse-right-click-outline" xlink:href="#mdi:mouse-right-click-outline" x="243" y="170" height="18" width="18.0" class="combo tap glyph mdi:mouse-right-click-outline"/>
 </g>
 </g>
 </g>
