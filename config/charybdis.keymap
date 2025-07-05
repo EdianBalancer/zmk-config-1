@@ -438,17 +438,17 @@
 
         layer_to_1 {
             bindings = <&to 1>;
-            key-positions = <49 53 54 50 49 50 53 54>;
+            key-positions = <10 11 22 23>;
         };
 
         layer_to_2 {
             bindings = <&to 2>;
-            key-positions = <55 52 51 51 52 55>;
+            key-positions = <22 23 34 35>;
         };
 
         layer_to_0 {
             bindings = <&to 0>;
-            key-positions = <48 49 53>;
+            key-positions = <34 35 47 46>;
         };
     };
 };
