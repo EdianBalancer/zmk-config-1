@@ -128,7 +128,7 @@ layers:
   - BT DISC 0
   - boot loader
   - $$mdi:skip-previous$$
-  - CTL+$$mdi:apple-keyboard-control$$
+  - ^
   - +
   - ':'
   - '`'
@@ -321,3 +321,7 @@ combos:
 - p: [28, 40]
   k: $$mdi:mouse-right-click-outline$$
   l: ['0']
+- p: [55, 52, 1]
+  k: {t: '1', h: toggle}
+- p: [55, 52, 2]
+  k: {t: '2', h: toggle}
