@@ -191,13 +191,6 @@
     combos {
         compatible = "zmk,combos";
 
-        left_finger_02_row_4 {
-            timeout-ms = <50>;
-            require-prior-idle-ms = <(-1)>;
-            key-positions = <48 42>;
-            bindings = <&to 0>;
-        };
-
         // both_finger_11_row_4 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <49 52>; bindings = <&lt 2 LSHFT>; }; // AB
         // both_finger_10_row_4 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <49 51>; bindings = <&lt 3 LALT>; };  // A
         // both_finger_11_row_4 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <49 52>; bindings = <&lt 3 LSHFT>; }; // C
@@ -445,12 +438,17 @@
 
         layer_to_1 {
             bindings = <&to 1>;
-            key-positions = <55 52 1>;
+            key-positions = <49 53 54 50 49 50 53 54>;
         };
 
         layer_to_2 {
             bindings = <&to 2>;
-            key-positions = <55 52 2>;
+            key-positions = <55 52 51 51 52 55>;
+        };
+
+        layer_to_0 {
+            bindings = <&to 0>;
+            key-positions = <48 49 53>;
         };
     };
 };
