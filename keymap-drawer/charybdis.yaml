@@ -232,8 +232,6 @@ layers:
     RGB EFR, RGB TOG, RGB EFF, studio unlock, '', '', '', '', '', '', '', BL INC, RGB HUD, RGB SAD, RGB BRD, RGB SPD, '', '', boot loader, '', '', boot loader, '',
     '', '']
 combos:
-- p: [48, 42]
-  k: {t: '0', h: toggle}
 - p: [13, 25]
   k: F9
   l: ['0']
@@ -321,7 +319,9 @@ combos:
 - p: [28, 40]
   k: $$mdi:mouse-right-click-outline$$
   l: ['0']
-- p: [55, 52, 1]
+- p: [49, 53, 54, 50, 49, 50, 53, 54]
   k: {t: '1', h: toggle}
-- p: [55, 52, 2]
+- p: [55, 52, 51, 51, 52, 55]
   k: {t: '2', h: toggle}
+- p: [48, 49, 53]
+  k: {t: '0', h: toggle}
