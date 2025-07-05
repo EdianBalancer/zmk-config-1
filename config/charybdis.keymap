@@ -148,7 +148,7 @@
         layer_2 {
             bindings = <
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &bt BT_SEL 4    &bt BT_DISC 4  &bt BT_DISC 3    &bt BT_DISC 2  &bt BT_DISC 1  &bt BT_DISC 0  &bootloader
-&kp C_PREV  &kp LCTRL     &kp PLUS      &kp COLON     &kp GRAVE       &kp PRCNT       &kp CARET      &kp AMPS         &kp DQT        &kp SQT        &kp DLLR       &kp PSCRN
+&kp C_PREV  &kp CARET     &kp PLUS      &kp COLON     &kp GRAVE       &kp PRCNT       &kp CARET      &kp AMPS         &kp DQT        &kp SQT        &kp DLLR       &kp PSCRN
 &kp C_PP    &kp LALT      &kp MINUS     &kp EQUAL     &kp GT          &kp TILDE       &kp AT         &kp LBRC         &kp LPAR       &kp RPAR       &kp RBRC       &kp SLCK
 &kp C_NEXT  &kp QMARK     &kp EXCL      &kp PIPE      &kp LT          &kp BSLH        &kp POUND      &kp UNDER        &kp LBKT       &kp RBKT       &kp ASTRK      &kp PAUSE_BREAK
                                         &trans        &m1s LGUI LALT  &trans          &trans         &mt LCTRL SPACE
@@ -441,6 +441,16 @@
             bindings = <&mkp RCLK>;
             key-positions = <28 40>;
             layers = <0>;
+        };
+
+        layer_to_1 {
+            bindings = <&to 1>;
+            key-positions = <55 52 1>;
+        };
+
+        layer_to_2 {
+            bindings = <&to 2>;
+            key-positions = <55 52 2>;
         };
     };
 };
