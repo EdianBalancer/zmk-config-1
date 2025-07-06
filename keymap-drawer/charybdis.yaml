@@ -172,7 +172,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: '3', type: held alternate}
   '3':
-  - {t: '0', h: toggle}
+  - '&lf0'
   - ''
   - ''
   - ''
