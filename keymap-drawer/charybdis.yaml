@@ -82,7 +82,7 @@ layers:
   - '9'
   - '0'
   - INS
-  - $$mdi:volume-off$$
+  - {t: '2', h: toggle}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-option$$'}
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -108,7 +108,7 @@ layers:
   - '='
   - {t: '$$mdi:apple-keyboard-option$$', h: '&lm1 LGUI'}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: '3', type: held}
   - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ▽, type: trans}
@@ -184,7 +184,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {t: '1', h: toggle}
   - CTL+$$mdi:apple-keyboard-control$$
   - F9
   - F8
@@ -220,17 +220,71 @@ layers:
   - $$mdi:skip-next$$
   - $$mdi:brightness-7$$
   - ''
-  - {type: held}
+  - {type: held alternate}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: '4', type: held alternate}
+  '4':
+  - {t: '0', h: toggle}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: '1', h: toggle}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BL DEC
+  - RGB HUI
+  - RGB SAI
+  - RGB BRI
+  - RGB SPI
+  - ''
+  - {t: '2', h: toggle}
+  - ''
+  - ''
+  - OUT TOG
+  - ''
+  - ''
+  - BL TOG
+  - RGB EFR
+  - RGB TOG
+  - RGB EFF
+  - studio unlock
+  - ''
+  - {t: '3', h: toggle}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BL INC
+  - RGB HUD
+  - RGB SAD
+  - RGB BRD
+  - RGB SPD
+  - ''
   - {type: held}
-  '4': ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', BL DEC, RGB HUI, RGB SAI, RGB BRI, RGB SPI, '', '', '', '', OUT TOG, '', '', BL TOG,
-    RGB EFR, RGB TOG, RGB EFF, studio unlock, '', '', '', '', '', '', '', BL INC, RGB HUD, RGB SAD, RGB BRD, RGB SPD, '', '', boot loader, '', '', boot loader, '',
-    '', '']
+  - boot loader
+  - {type: held}
+  - ''
+  - boot loader
+  - ''
+  - ''
+  - {type: held}
 combos:
 - p: [13, 25]
   k: F9
