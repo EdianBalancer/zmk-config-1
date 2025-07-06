@@ -139,7 +139,7 @@ layers:
   - ''''
   - $
   - $$mdi:printer-outline$$
-  - {t: '2', h: toggle}
+  - {t: '3', h: toggle}
   - $$mdi:apple-keyboard-option$$
   - '-'
   - '='
@@ -196,7 +196,7 @@ layers:
   - END
   - $$mdi:brightness-5$$
   - ''
-  - ''
+  - {t: '2', h: toggle}
   - {t: APP, h: '$$mdi:apple-keyboard-option$$'}
   - F6
   - F5
